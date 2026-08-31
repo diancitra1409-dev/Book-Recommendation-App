@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Recommendation App</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>📚 Book Recommendation</h1>
+
+    <!-- 🔥 PINDAHKAN KE SINI -->
+   
+
+    <nav class="nav">
+  <a href="favorite.html">❤️ Favorites</a>
+</nav>
+
+  </header>
+
+  <main>
+
+    <!-- SEARCH SECTION -->
+    <section class="search-box">
+      <input 
+        type="text"
+        id="searchInput"
+        placeholder="Search book..."
+      >
+
+      <button id="searchBtn">
+        Search
+      </button>
+    </section>
+
+    <!-- STATUS -->
+    <p id="status"></p>
+
+    <!-- BOOK LIST -->
+    <section>
+      <div id="bookList" class="grid"></div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
